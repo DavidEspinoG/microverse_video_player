@@ -1,0 +1,148 @@
+:root{
+    --gray : rgb(177, 173, 173);
+}
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+.container iframe {
+    margin: 0 auto;
+}
+header {
+    margin: 0 auto;
+    max-width: 95%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+}
+header img {
+    width: 180px;
+}
+.main-logo-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input {
+    height: 25px;
+    width: 400px;
+    padding: 6px;
+    border-radius: 17px 0 0 17px;
+    border: 1px solid rgb(177, 173, 173);
+}
+.search button {
+    height: 39px;
+    padding: 10px;
+    border-radius: 0 17px 17px 0px;
+    border: 1px solid var(--gray);
+    margin-left: -7px;
+}
+.right-icons {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+   
+}
+.right-icons img {
+    width: 50px;
+    border-radius: 50%;
+}
+.title p {
+    margin: 0;
+    font-size: 12px;
+    color: rgb(219, 124, 219);
+}
+.title h3 {
+    margin-top: 4px;
+}
+.secondary-info {
+    display: flex;
+    justify-content: space-between;
+}
+.channel-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 13px;
+}
+.channel-info img {
+    width: 70px;
+    border-radius: 50%;
+}
+.channel-info button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+.subscriptions span, p {
+    font-size: 14px;
+}
+.subscriptions p {
+    margin: 0;
+}
+.subscriptions span{
+    color: var(--gray);
+}
+.like-and-share {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.like-dislike button {
+    border: none;
+    padding: 10px;
+}
+.like-and-share button {
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+}
+.like-dislike button:nth-child(1){
+    border-radius: 10px 0 0 10px;
+    margin-right: -5px ;
+}
+.like-dislike button:nth-child(2){
+    border-radius: 0 10px 10px 0;
+}
+.related img {
+    width: 160px;
+}
+.related {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.related span {
+    font-size: 10px;
+    font-weight: 300;
+}
+.related p {
+    margin: 0;
+}
+.related-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
